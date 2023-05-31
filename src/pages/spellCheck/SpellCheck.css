@@ -1,0 +1,96 @@
+.spellCheck__container {
+  width: 100%;
+  background-color: #f8f8f8;
+  position: relative;
+}
+.spellCheck-top__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 115px;
+  width: 90%;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 20px;
+}
+.spellCheck-top-options__container {
+  display: flex;
+}
+.spellCheck-top-check__Container {
+  display: flex;
+  height: 24px;
+  align-items: center;
+  margin-left: 4%;
+}
+.spellCheck-top-options-buttons__container {
+  display: flex;
+  gap: 15px;
+  border-right: 1px solid #cccaca;
+  height: 24px;
+  align-items: center;
+  padding-right: 16px;
+}
+
+.spellCheck-top-options-language__container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: #606060;
+  margin-left: 30px;
+}
+
+.spellCheck-main__container {
+  height: 693px;
+  width: 85%;
+  margin-left: 50px;
+  border-bottom: 1px solid #ededed;
+}
+.spellCheck-main-textarea {
+  background-color: none;
+  border: none;
+  width: 100%;
+  height: 90%;
+  background-color: #f8f8f8;
+  text-align: start;
+  text-justify: start;
+  padding: 0;
+  margin-top: 52px;
+  resize: none;
+  color: #6f6f6f;
+  font-size: 12px;
+}
+.spellCheck-main-textarea:focus {
+  outline: 0;
+}
+.spellCheck-footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 39px;
+  width: 91%;
+  padding-left: 99px;
+}
+.spellCheck-footer-items__container {
+  height: 18px;
+  border-right: 1px solid #cccaca;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 24px;
+}
+.spellCheck-footer-numberCount__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+  width: 192px;
+  height: 36px;
+  background: #ffffff;
+  font-size: 12px;
+  color: #000000;
+}
+.footer-main-logo {
+  position: absolute;
+  right: 60px;
+  bottom: 60px;
+}

@@ -1,0 +1,28 @@
+.header__container {
+  display: flex;
+  justify-content: flex-end;
+  height: 80px;
+  width: 100%;
+  border-bottom: 1px solid #e3e3e3;
+}
+.header-buttons__container {
+  height: 100%;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.header-profile__container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+  margin-right: 35px;
+  gap: 7.7px;
+}
+
+@media (max-width: 500px) {
+  .header-profile__container {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
